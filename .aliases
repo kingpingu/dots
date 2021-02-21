@@ -1,0 +1,23 @@
+#!/bin/sh
+
+alias c='clear' \
+	cp='sudo cp -r' \
+	h='cd /home/odin' \
+	ls='ls -h --color=auto --group-directories-first' \
+	la='ls -a' \
+	ll='ls -lo' \
+	make='sudo make' \
+	mv='sudo mv' \
+	npm='sudo npm' \
+	reboot='sudo reboot' \
+	rm='sudo rm' \
+	seek='sudo grep -rn ./ -e' \
+	shutdown='sudo shutdown' \
+	top='htop' \
+	v='sudo vim' \
+	va='v ~/.aliases' \
+	vkpurge='sudo vkpurge' \
+	xi='sudo xbps-install' \
+	xq='sudo xbps-query' \
+	xr='sudo xbps-remove -R' \
+	zip='zip -r' \

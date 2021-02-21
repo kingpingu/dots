@@ -1,0 +1,14 @@
+/*
+!.aliases
+!/.config
+/.config/*
+!/.config/nvim/init.vim
+!/.config/sxhkd/sxhkdrc
+!.gitignore
+!/.local
+/.local/*
+!.local/bin/
+!wall.jpg
+!.xinitrc
+!.zprofile
+!.zshrc

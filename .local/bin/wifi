@@ -1,0 +1,3 @@
+#!/bin/sh
+
+grep "^\s*w" /proc/net/wireless | awk '{ print "", int($3 * 100 / 70) "%" }'

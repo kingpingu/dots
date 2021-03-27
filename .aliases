@@ -2,6 +2,8 @@
 
 alias c='clear' \
 	cp='sudo cp -r' \
+	d='cd /home/odin/Documents' \
+	D='cd /home/odin/Downloads' \
 	h='cd /home/odin' \
 	ls='ls -h --color=auto --group-directories-first' \
 	la='ls -a' \
@@ -14,8 +16,9 @@ alias c='clear' \
 	seek='sudo grep -rn ./ -e' \
 	shutdown='sudo shutdown' \
 	top='htop' \
-	v='sudo vim' \
+	v='vim' \
 	va='v ~/.aliases' \
+	vim='sudo vim' \
 	vkpurge='sudo vkpurge' \
 	xi='sudo xbps-install' \
 	xq='sudo xbps-query' \

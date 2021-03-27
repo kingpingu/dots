@@ -1,0 +1,10 @@
+#!/bin/sh
+
+sudo xbps-install -Syu
+sudo xbps-remove -o
+
+cd /home/odin/.local/src/void-packages
+git pull --rebase
+./xbps-src update-sys
+
+sudo xbps-install --repository=hostdir/binpkgs/nonfree android-studio discord

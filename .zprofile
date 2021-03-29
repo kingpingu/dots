@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # necessary for android-studio setup wizard
+export EDITOR=vim
 export _JAVA_AWT_WM_NONREPARENTING=1
 
 export LOCAL=$HOME/.local

@@ -1,10 +1,18 @@
 #!/bin/sh
 
+sudo xbps-install -u xbps
 sudo xbps-install -Syu
 sudo xbps-remove -o
 
-cd /home/odin/.local/src/void-packages
-git pull --rebase
+# void-packages must be last directory in list to work 
+for d in /home/odin/.local/src/*/
+do
+	cd "$d"
+	echo "Changed directory: $d"
+	git pull upstream master --rebase
+	git pull --rebase
+done
+
 ./xbps-src update-sys
 
 sudo xbps-install --repository=hostdir/binpkgs/nonfree android-studio discord

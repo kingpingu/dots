@@ -15,6 +15,7 @@ do
 	echo "Changed directory: $d"
 	git pull upstream master --rebase
 	git pull --rebase
+	cp config.def.h config.h
 	sudo make clean install
 done
 

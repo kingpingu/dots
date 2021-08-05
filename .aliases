@@ -4,6 +4,7 @@ alias c='clear' \
 	cp='sudo cp -r' \
 	d='cd /home/odin/Documents' \
 	D='cd /home/odin/Downloads' \
+	dla='youtube-dl -x --audio-format mp3' \
 	h='cd /home/odin' \
 	ls='ls -h --color=auto --group-directories-first' \
 	la='ls -a' \

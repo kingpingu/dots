@@ -20,6 +20,7 @@ alias c='clear' \
 	shutdown='sudo shutdown' \
 	top='htop' \
 	va='vim ~/.aliases' \
+	vhkd='vim ~/.config/sxhkd/sxhkdrc' \
 	vim='nvim' \
 	vkpurge='sudo vkpurge' \
 	xi='sudo xbps-install' \

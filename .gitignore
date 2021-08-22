@@ -8,7 +8,9 @@
 !/.local
 /.local/*
 !.local/bin/
-!wall.jpg
+!Pictures
+/Pictures/*
+!Pictures/wall.jpg
 !.xinitrc
 !.zprofile
 !.zshrc

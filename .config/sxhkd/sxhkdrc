@@ -1,0 +1,11 @@
+ctrl + w
+#edit
+	firefox
+
+ctrl + 1
+	prompt "Shutdown computer?" "sudo -A shutdown -h now"
+
+ctrl + 2
+	prompt "Reboot computer?" "sudo reboot"
+
+

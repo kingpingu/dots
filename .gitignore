@@ -4,10 +4,13 @@
 /.config/*
 !/.config/nvim/init.vim
 !/.config/sxhkd/sxhkdrc
+!.doom.d
 !.gitignore
 !/.local
-/.local/*
-!.local/bin/
+.local/*
+!/.local/src
+.local/src/*
+!/.local/src/scripts
 !Pictures
 /Pictures/*
 !Pictures/wall.jpg

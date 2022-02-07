@@ -1,5 +1,4 @@
-ctrl + w
-#edit
+mod4 + w
 	firefox
 
 ctrl + 1
@@ -8,4 +7,5 @@ ctrl + 1
 ctrl + 2
 	prompt "Reboot computer?" "sudo reboot"
 
-
+ctrl + 3
+	pkill -USR1 -x sxhkd

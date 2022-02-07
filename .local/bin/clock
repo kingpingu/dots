@@ -1,4 +1,0 @@
-#!/bin/sh
-# print current time
-
-date '+%b %d %Y (%a) %I:%M%p'

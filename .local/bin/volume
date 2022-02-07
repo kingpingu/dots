@@ -1,3 +1,0 @@
-#!/bin/sh
-
-amixer get Master | grep -o "\[on\]\|\[off\]\|[0-9]*%" | sed "s/\[on\]//;s/\[off\]//"

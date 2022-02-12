@@ -13,6 +13,7 @@ for d in /home/odin/.local/src/*/
 do
 	cd "$d"
 	echo "Changed directory: $d"
+	./xbps-src bootstrap-update
 	git pull upstream master --rebase
 	git pull --rebase
 	cp config.def.h config.h

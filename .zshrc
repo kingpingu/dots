@@ -25,3 +25,9 @@ source $HOME/.aliases
 cd() {
 	builtin cd "$@" && la
 }
+
+unzip() {
+	zipfile="$1"
+  zipdir=${1%.zip}
+	/bin/unzip -d "$zipdir" "$zipfile"
+}

@@ -1,6 +1,7 @@
 #!/bin/sh
 
-alias c='clear' \
+alias b='redshift -P -O 3000 -b' \
+	c='clear' \
 	cp='sudo cp -r' \
 	d='cd /home/odin/Documents' \
 	D='cd /home/odin/Downloads' \
